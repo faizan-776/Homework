@@ -1,0 +1,21 @@
+let string1: string = "hello";
+let string2: string = "world";
+let number1: number = 10;
+let number2: number = 20;
+let array: number[] = [1, 2, 3, 4, 5];
+console.log("Equality test with strings: ", string1 == "hello");
+console.log("Inequality test with strings: ", string1 != string2);
+console.log("Lower case test: ", string1.toLowerCase() == "hello");
+console.log("Numerical test with inequality: ", number1 != 20);
+console.log("Numerical test with equality: ", number2 == 20);
+console.log("Numerical test with greater than: ", number1 > 9);
+console.log("Numerical test with less than: ", number2 < number1);
+console.log("Numerical test with Greater than or equal to: ",number1 >= number2);
+console.log("Numerical test with Less than or equal to: ", number2 <= number1);
+console.log("Test with 'And' operator: ", number1 != 10 && number2 == 20);
+console.log("Test with 'Or' operator: ", number1 == 10 || number2 == 20);
+console.log("Array inclusion test (True): ", array.includes(3));
+console.log("Array inclusion test (False): ", array.includes(6));
+console.log("Array exclusion test (False): ", !array.includes(3));
+console.log("Array exclusion test (True): ", !array.includes(6));
+

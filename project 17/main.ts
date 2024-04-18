@@ -1,0 +1,15 @@
+let places: string[] = [" Tokyo ", " Moscow ", " Paris "];
+console.log("Original order: " + places);
+console.log("Alphabetical order: " + [...places].sort());
+console.log("Original order after sorting: " + places);
+console.log("Reverse alphabetical order: " + [...places].sort().reverse());
+console.log("Original order after reverse sorting: " + places);
+places.reverse();
+console.log("Reversed order: " + places);
+places.reverse();
+console.log("Original order after reversing again: " + places);
+places.sort();
+console.log("Sorted in alphabetical order: " + places);
+places.sort();
+places.reverse();
+console.log("Sorted in reverse alphabetical order: " + places);
